@@ -25,7 +25,7 @@ http = Flask(__name__)
 
 @http.route('/')
 def root():
-    return Response('This is a really cool app', mimetype='text/plain')
+    return Response('You have reached the Athenian web-database-demo', mimetype='text/plain')
 
 
 @http.route('/students-json', methods=['GET'])
