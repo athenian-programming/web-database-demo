@@ -1,0 +1,2 @@
+logs:
+	heroku logs -t
